@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		358ACB4A1F2592C20037E5A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 358ACB491F2592C20037E5A8 /* main.m */; };
+		358ACB4D1F2592C20037E5A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 358ACB4C1F2592C20037E5A8 /* AppDelegate.m */; };
+		358ACB501F2592C20037E5A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358ACB4F1F2592C20037E5A8 /* ViewController.m */; };
+		358ACB531F2592C20037E5A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358ACB511F2592C20037E5A8 /* Main.storyboard */; };
+		358ACB551F2592C20037E5A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358ACB541F2592C20037E5A8 /* Assets.xcassets */; };
+		358ACB581F2592C20037E5A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358ACB561F2592C20037E5A8 /* LaunchScreen.storyboard */; };
+		358ACB631F2592C20037E5A8 /* XyKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 358ACB621F2592C20037E5A8 /* XyKeyboardTests.m */; };
+		358ACB6E1F2592C20037E5A8 /* XyKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 358ACB6D1F2592C20037E5A8 /* XyKeyboardUITests.m */; };
+		35EBF7991F2593E200096BD3 /* 10_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF77A1F2593E200096BD3 /* 10_click@2x.png */; };
+		35EBF79A1F2593E200096BD3 /* 10_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF77B1F2593E200096BD3 /* 10_detail@2x.png */; };
+		35EBF79B1F2593E200096BD3 /* 11_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF77C1F2593E200096BD3 /* 11_click@2x.png */; };
+		35EBF79C1F2593E200096BD3 /* 11_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF77D1F2593E200096BD3 /* 11_detail@2x.png */; };
+		35EBF79D1F2593E200096BD3 /* 12_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF77E1F2593E200096BD3 /* 12_click@2x.png */; };
+		35EBF79E1F2593E200096BD3 /* 12_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF77F1F2593E200096BD3 /* 12_detail@2x.png */; };
+		35EBF79F1F2593E200096BD3 /* 13_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7801F2593E200096BD3 /* 13_click@2x.png */; };
+		35EBF7A01F2593E200096BD3 /* 13_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7811F2593E200096BD3 /* 13_detail@2x.png */; };
+		35EBF7A11F2593E200096BD3 /* 14_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7821F2593E200096BD3 /* 14_click@2x.png */; };
+		35EBF7A21F2593E200096BD3 /* 14_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7831F2593E200096BD3 /* 14_detail@2x.png */; };
+		35EBF7A31F2593E200096BD3 /* 1_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7841F2593E200096BD3 /* 1_click@2x.png */; };
+		35EBF7A41F2593E200096BD3 /* 1_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7851F2593E200096BD3 /* 1_detail@2x.png */; };
+		35EBF7A51F2593E200096BD3 /* 2_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7861F2593E200096BD3 /* 2_click@2x.png */; };
+		35EBF7A61F2593E200096BD3 /* 2_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7871F2593E200096BD3 /* 2_detail@2x.png */; };
+		35EBF7A71F2593E200096BD3 /* 3_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7881F2593E200096BD3 /* 3_click@2x.png */; };
+		35EBF7A81F2593E200096BD3 /* 3_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7891F2593E200096BD3 /* 3_detail@2x.png */; };
+		35EBF7A91F2593E200096BD3 /* 4_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF78A1F2593E200096BD3 /* 4_click@2x.png */; };
+		35EBF7AA1F2593E200096BD3 /* 4_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF78B1F2593E200096BD3 /* 4_detail@2x.png */; };
+		35EBF7AB1F2593E200096BD3 /* 5_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF78C1F2593E200096BD3 /* 5_click@2x.png */; };
+		35EBF7AC1F2593E200096BD3 /* 5_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF78D1F2593E200096BD3 /* 5_detail@2x.png */; };
+		35EBF7AD1F2593E200096BD3 /* 6_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF78E1F2593E200096BD3 /* 6_click@2x.png */; };
+		35EBF7AE1F2593E200096BD3 /* 6_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF78F1F2593E200096BD3 /* 6_detail@2x.png */; };
+		35EBF7AF1F2593E200096BD3 /* 7_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7901F2593E200096BD3 /* 7_click@2x.png */; };
+		35EBF7B01F2593E200096BD3 /* 7_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7911F2593E200096BD3 /* 7_detail@2x.png */; };
+		35EBF7B11F2593E200096BD3 /* 8_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7921F2593E200096BD3 /* 8_click@2x.png */; };
+		35EBF7B21F2593E200096BD3 /* 8_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7931F2593E200096BD3 /* 8_detail@2x.png */; };
+		35EBF7B31F2593E200096BD3 /* 9_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7941F2593E200096BD3 /* 9_click@2x.png */; };
+		35EBF7B41F2593E200096BD3 /* 9_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7951F2593E200096BD3 /* 9_detail@2x.png */; };
+		35EBF7B51F2593E200096BD3 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7961F2593E200096BD3 /* bg@2x.png */; };
+		35EBF7B61F2593E200096BD3 /* XyNumberKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EBF7981F2593E200096BD3 /* XyNumberKeyboardView.m */; };
+		35EBF7B91F2593F100096BD3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 35EBF7B71F2593F100096BD3 /* LICENSE */; };
+		35EBF7BA1F2593F100096BD3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 35EBF7B81F2593F100096BD3 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		358ACB5F1F2592C20037E5A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 358ACB3D1F2592C20037E5A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 358ACB441F2592C20037E5A8;
+			remoteInfo = XyKeyboard;
+		};
+		358ACB6A1F2592C20037E5A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 358ACB3D1F2592C20037E5A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 358ACB441F2592C20037E5A8;
+			remoteInfo = XyKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		358ACB451F2592C20037E5A8 /* XyKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XyKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		358ACB491F2592C20037E5A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		358ACB4B1F2592C20037E5A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		358ACB4C1F2592C20037E5A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		358ACB4E1F2592C20037E5A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		358ACB4F1F2592C20037E5A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		358ACB521F2592C20037E5A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		358ACB541F2592C20037E5A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		358ACB571F2592C20037E5A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		358ACB591F2592C20037E5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		358ACB5E1F2592C20037E5A8 /* XyKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XyKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		358ACB621F2592C20037E5A8 /* XyKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XyKeyboardTests.m; sourceTree = "<group>"; };
+		358ACB641F2592C20037E5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		358ACB691F2592C20037E5A8 /* XyKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XyKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		358ACB6D1F2592C20037E5A8 /* XyKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XyKeyboardUITests.m; sourceTree = "<group>"; };
+		358ACB6F1F2592C20037E5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35EBF77A1F2593E200096BD3 /* 10_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10_click@2x.png"; sourceTree = "<group>"; };
+		35EBF77B1F2593E200096BD3 /* 10_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10_detail@2x.png"; sourceTree = "<group>"; };
+		35EBF77C1F2593E200096BD3 /* 11_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11_click@2x.png"; sourceTree = "<group>"; };
+		35EBF77D1F2593E200096BD3 /* 11_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11_detail@2x.png"; sourceTree = "<group>"; };
+		35EBF77E1F2593E200096BD3 /* 12_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12_click@2x.png"; sourceTree = "<group>"; };
+		35EBF77F1F2593E200096BD3 /* 12_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12_detail@2x.png"; sourceTree = "<group>"; };
+		35EBF7801F2593E200096BD3 /* 13_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13_click@2x.png"; sourceTree = "<group>"; };
+		35EBF7811F2593E200096BD3 /* 13_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13_detail@2x.png"; sourceTree = "<group>"; };
+		35EBF7821F2593E200096BD3 /* 14_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14_click@2x.png"; sourceTree = "<group>"; };
+		35EBF7831F2593E200096BD3 /* 14_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14_detail@2x.png"; sourceTree = "<group>"; };
+		35EBF7841F2593E200096BD3 /* 1_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1_click@2x.png"; sourceTree = "<group>"; };
+		35EBF7851F2593E200096BD3 /* 1_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1_detail@2x.png"; sourceTree = "<group>"; };
+		35EBF7861F2593E200096BD3 /* 2_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2_click@2x.png"; sourceTree = "<group>"; };
+		35EBF7871F2593E200096BD3 /* 2_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2_detail@2x.png"; sourceTree = "<group>"; };
+		35EBF7881F2593E200096BD3 /* 3_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3_click@2x.png"; sourceTree = "<group>"; };
+		35EBF7891F2593E200096BD3 /* 3_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3_detail@2x.png"; sourceTree = "<group>"; };
+		35EBF78A1F2593E200096BD3 /* 4_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4_click@2x.png"; sourceTree = "<group>"; };
+		35EBF78B1F2593E200096BD3 /* 4_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4_detail@2x.png"; sourceTree = "<group>"; };
+		35EBF78C1F2593E200096BD3 /* 5_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5_click@2x.png"; sourceTree = "<group>"; };
+		35EBF78D1F2593E200096BD3 /* 5_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5_detail@2x.png"; sourceTree = "<group>"; };
+		35EBF78E1F2593E200096BD3 /* 6_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6_click@2x.png"; sourceTree = "<group>"; };
+		35EBF78F1F2593E200096BD3 /* 6_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6_detail@2x.png"; sourceTree = "<group>"; };
+		35EBF7901F2593E200096BD3 /* 7_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7_click@2x.png"; sourceTree = "<group>"; };
+		35EBF7911F2593E200096BD3 /* 7_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7_detail@2x.png"; sourceTree = "<group>"; };
+		35EBF7921F2593E200096BD3 /* 8_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8_click@2x.png"; sourceTree = "<group>"; };
+		35EBF7931F2593E200096BD3 /* 8_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8_detail@2x.png"; sourceTree = "<group>"; };
+		35EBF7941F2593E200096BD3 /* 9_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9_click@2x.png"; sourceTree = "<group>"; };
+		35EBF7951F2593E200096BD3 /* 9_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9_detail@2x.png"; sourceTree = "<group>"; };
+		35EBF7961F2593E200096BD3 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		35EBF7971F2593E200096BD3 /* XyNumberKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XyNumberKeyboardView.h; sourceTree = "<group>"; };
+		35EBF7981F2593E200096BD3 /* XyNumberKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XyNumberKeyboardView.m; sourceTree = "<group>"; };
+		35EBF7B71F2593F100096BD3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		35EBF7B81F2593F100096BD3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		358ACB421F2592C20037E5A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358ACB5B1F2592C20037E5A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358ACB661F2592C20037E5A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		358ACB3C1F2592C20037E5A8 = {
+			isa = PBXGroup;
+			children = (
+				358ACB471F2592C20037E5A8 /* XyKeyboard */,
+				358ACB611F2592C20037E5A8 /* XyKeyboardTests */,
+				358ACB6C1F2592C20037E5A8 /* XyKeyboardUITests */,
+				358ACB461F2592C20037E5A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		358ACB461F2592C20037E5A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				358ACB451F2592C20037E5A8 /* XyKeyboard.app */,
+				358ACB5E1F2592C20037E5A8 /* XyKeyboardTests.xctest */,
+				358ACB691F2592C20037E5A8 /* XyKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		358ACB471F2592C20037E5A8 /* XyKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				35EBF7B71F2593F100096BD3 /* LICENSE */,
+				35EBF7B81F2593F100096BD3 /* README.md */,
+				35EBF7781F2593E200096BD3 /* Keyboard */,
+				358ACB4B1F2592C20037E5A8 /* AppDelegate.h */,
+				358ACB4C1F2592C20037E5A8 /* AppDelegate.m */,
+				358ACB4E1F2592C20037E5A8 /* ViewController.h */,
+				358ACB4F1F2592C20037E5A8 /* ViewController.m */,
+				358ACB511F2592C20037E5A8 /* Main.storyboard */,
+				358ACB541F2592C20037E5A8 /* Assets.xcassets */,
+				358ACB561F2592C20037E5A8 /* LaunchScreen.storyboard */,
+				358ACB591F2592C20037E5A8 /* Info.plist */,
+				358ACB481F2592C20037E5A8 /* Supporting Files */,
+			);
+			path = XyKeyboard;
+			sourceTree = "<group>";
+		};
+		358ACB481F2592C20037E5A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				358ACB491F2592C20037E5A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		358ACB611F2592C20037E5A8 /* XyKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				358ACB621F2592C20037E5A8 /* XyKeyboardTests.m */,
+				358ACB641F2592C20037E5A8 /* Info.plist */,
+			);
+			path = XyKeyboardTests;
+			sourceTree = "<group>";
+		};
+		358ACB6C1F2592C20037E5A8 /* XyKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				358ACB6D1F2592C20037E5A8 /* XyKeyboardUITests.m */,
+				358ACB6F1F2592C20037E5A8 /* Info.plist */,
+			);
+			path = XyKeyboardUITests;
+			sourceTree = "<group>";
+		};
+		35EBF7781F2593E200096BD3 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				35EBF7791F2593E200096BD3 /* image */,
+				35EBF7971F2593E200096BD3 /* XyNumberKeyboardView.h */,
+				35EBF7981F2593E200096BD3 /* XyNumberKeyboardView.m */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		35EBF7791F2593E200096BD3 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				35EBF77A1F2593E200096BD3 /* 10_click@2x.png */,
+				35EBF77B1F2593E200096BD3 /* 10_detail@2x.png */,
+				35EBF77C1F2593E200096BD3 /* 11_click@2x.png */,
+				35EBF77D1F2593E200096BD3 /* 11_detail@2x.png */,
+				35EBF77E1F2593E200096BD3 /* 12_click@2x.png */,
+				35EBF77F1F2593E200096BD3 /* 12_detail@2x.png */,
+				35EBF7801F2593E200096BD3 /* 13_click@2x.png */,
+				35EBF7811F2593E200096BD3 /* 13_detail@2x.png */,
+				35EBF7821F2593E200096BD3 /* 14_click@2x.png */,
+				35EBF7831F2593E200096BD3 /* 14_detail@2x.png */,
+				35EBF7841F2593E200096BD3 /* 1_click@2x.png */,
+				35EBF7851F2593E200096BD3 /* 1_detail@2x.png */,
+				35EBF7861F2593E200096BD3 /* 2_click@2x.png */,
+				35EBF7871F2593E200096BD3 /* 2_detail@2x.png */,
+				35EBF7881F2593E200096BD3 /* 3_click@2x.png */,
+				35EBF7891F2593E200096BD3 /* 3_detail@2x.png */,
+				35EBF78A1F2593E200096BD3 /* 4_click@2x.png */,
+				35EBF78B1F2593E200096BD3 /* 4_detail@2x.png */,
+				35EBF78C1F2593E200096BD3 /* 5_click@2x.png */,
+				35EBF78D1F2593E200096BD3 /* 5_detail@2x.png */,
+				35EBF78E1F2593E200096BD3 /* 6_click@2x.png */,
+				35EBF78F1F2593E200096BD3 /* 6_detail@2x.png */,
+				35EBF7901F2593E200096BD3 /* 7_click@2x.png */,
+				35EBF7911F2593E200096BD3 /* 7_detail@2x.png */,
+				35EBF7921F2593E200096BD3 /* 8_click@2x.png */,
+				35EBF7931F2593E200096BD3 /* 8_detail@2x.png */,
+				35EBF7941F2593E200096BD3 /* 9_click@2x.png */,
+				35EBF7951F2593E200096BD3 /* 9_detail@2x.png */,
+				35EBF7961F2593E200096BD3 /* bg@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		358ACB441F2592C20037E5A8 /* XyKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358ACB721F2592C20037E5A8 /* Build configuration list for PBXNativeTarget "XyKeyboard" */;
+			buildPhases = (
+				358ACB411F2592C20037E5A8 /* Sources */,
+				358ACB421F2592C20037E5A8 /* Frameworks */,
+				358ACB431F2592C20037E5A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XyKeyboard;
+			productName = XyKeyboard;
+			productReference = 358ACB451F2592C20037E5A8 /* XyKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		358ACB5D1F2592C20037E5A8 /* XyKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358ACB751F2592C20037E5A8 /* Build configuration list for PBXNativeTarget "XyKeyboardTests" */;
+			buildPhases = (
+				358ACB5A1F2592C20037E5A8 /* Sources */,
+				358ACB5B1F2592C20037E5A8 /* Frameworks */,
+				358ACB5C1F2592C20037E5A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				358ACB601F2592C20037E5A8 /* PBXTargetDependency */,
+			);
+			name = XyKeyboardTests;
+			productName = XyKeyboardTests;
+			productReference = 358ACB5E1F2592C20037E5A8 /* XyKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		358ACB681F2592C20037E5A8 /* XyKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358ACB781F2592C20037E5A8 /* Build configuration list for PBXNativeTarget "XyKeyboardUITests" */;
+			buildPhases = (
+				358ACB651F2592C20037E5A8 /* Sources */,
+				358ACB661F2592C20037E5A8 /* Frameworks */,
+				358ACB671F2592C20037E5A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				358ACB6B1F2592C20037E5A8 /* PBXTargetDependency */,
+			);
+			name = XyKeyboardUITests;
+			productName = XyKeyboardUITests;
+			productReference = 358ACB691F2592C20037E5A8 /* XyKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		358ACB3D1F2592C20037E5A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xyz;
+				TargetAttributes = {
+					358ACB441F2592C20037E5A8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = S68EFV8SE8;
+						ProvisioningStyle = Automatic;
+					};
+					358ACB5D1F2592C20037E5A8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = S68EFV8SE8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 358ACB441F2592C20037E5A8;
+					};
+					358ACB681F2592C20037E5A8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = S68EFV8SE8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 358ACB441F2592C20037E5A8;
+					};
+				};
+			};
+			buildConfigurationList = 358ACB401F2592C20037E5A8 /* Build configuration list for PBXProject "XyKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 358ACB3C1F2592C20037E5A8;
+			productRefGroup = 358ACB461F2592C20037E5A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				358ACB441F2592C20037E5A8 /* XyKeyboard */,
+				358ACB5D1F2592C20037E5A8 /* XyKeyboardTests */,
+				358ACB681F2592C20037E5A8 /* XyKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		358ACB431F2592C20037E5A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EBF7A41F2593E200096BD3 /* 1_detail@2x.png in Resources */,
+				35EBF7B41F2593E200096BD3 /* 9_detail@2x.png in Resources */,
+				358ACB581F2592C20037E5A8 /* LaunchScreen.storyboard in Resources */,
+				35EBF7A51F2593E200096BD3 /* 2_click@2x.png in Resources */,
+				35EBF7A71F2593E200096BD3 /* 3_click@2x.png in Resources */,
+				35EBF7B01F2593E200096BD3 /* 7_detail@2x.png in Resources */,
+				35EBF7A91F2593E200096BD3 /* 4_click@2x.png in Resources */,
+				358ACB551F2592C20037E5A8 /* Assets.xcassets in Resources */,
+				35EBF7B31F2593E200096BD3 /* 9_click@2x.png in Resources */,
+				35EBF79C1F2593E200096BD3 /* 11_detail@2x.png in Resources */,
+				35EBF7B11F2593E200096BD3 /* 8_click@2x.png in Resources */,
+				35EBF7AA1F2593E200096BD3 /* 4_detail@2x.png in Resources */,
+				35EBF7991F2593E200096BD3 /* 10_click@2x.png in Resources */,
+				35EBF79E1F2593E200096BD3 /* 12_detail@2x.png in Resources */,
+				35EBF79D1F2593E200096BD3 /* 12_click@2x.png in Resources */,
+				35EBF7B51F2593E200096BD3 /* bg@2x.png in Resources */,
+				35EBF7B21F2593E200096BD3 /* 8_detail@2x.png in Resources */,
+				35EBF7A11F2593E200096BD3 /* 14_click@2x.png in Resources */,
+				35EBF7A61F2593E200096BD3 /* 2_detail@2x.png in Resources */,
+				35EBF7A81F2593E200096BD3 /* 3_detail@2x.png in Resources */,
+				35EBF7AD1F2593E200096BD3 /* 6_click@2x.png in Resources */,
+				35EBF7AF1F2593E200096BD3 /* 7_click@2x.png in Resources */,
+				35EBF7A31F2593E200096BD3 /* 1_click@2x.png in Resources */,
+				35EBF7AB1F2593E200096BD3 /* 5_click@2x.png in Resources */,
+				358ACB531F2592C20037E5A8 /* Main.storyboard in Resources */,
+				35EBF7A01F2593E200096BD3 /* 13_detail@2x.png in Resources */,
+				35EBF79A1F2593E200096BD3 /* 10_detail@2x.png in Resources */,
+				35EBF7B91F2593F100096BD3 /* LICENSE in Resources */,
+				35EBF7AC1F2593E200096BD3 /* 5_detail@2x.png in Resources */,
+				35EBF7AE1F2593E200096BD3 /* 6_detail@2x.png in Resources */,
+				35EBF79B1F2593E200096BD3 /* 11_click@2x.png in Resources */,
+				35EBF7A21F2593E200096BD3 /* 14_detail@2x.png in Resources */,
+				35EBF79F1F2593E200096BD3 /* 13_click@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358ACB5C1F2592C20037E5A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358ACB671F2592C20037E5A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		358ACB411F2592C20037E5A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EBF7B61F2593E200096BD3 /* XyNumberKeyboardView.m in Sources */,
+				358ACB501F2592C20037E5A8 /* ViewController.m in Sources */,
+				35EBF7BA1F2593F100096BD3 /* README.md in Sources */,
+				358ACB4D1F2592C20037E5A8 /* AppDelegate.m in Sources */,
+				358ACB4A1F2592C20037E5A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358ACB5A1F2592C20037E5A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358ACB631F2592C20037E5A8 /* XyKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358ACB651F2592C20037E5A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358ACB6E1F2592C20037E5A8 /* XyKeyboardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		358ACB601F2592C20037E5A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 358ACB441F2592C20037E5A8 /* XyKeyboard */;
+			targetProxy = 358ACB5F1F2592C20037E5A8 /* PBXContainerItemProxy */;
+		};
+		358ACB6B1F2592C20037E5A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 358ACB441F2592C20037E5A8 /* XyKeyboard */;
+			targetProxy = 358ACB6A1F2592C20037E5A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		358ACB511F2592C20037E5A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358ACB521F2592C20037E5A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		358ACB561F2592C20037E5A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358ACB571F2592C20037E5A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		358ACB701F2592C20037E5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		358ACB711F2592C20037E5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		358ACB731F2592C20037E5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S68EFV8SE8;
+				INFOPLIST_FILE = XyKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.XyKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		358ACB741F2592C20037E5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S68EFV8SE8;
+				INFOPLIST_FILE = XyKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.XyKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		358ACB761F2592C20037E5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S68EFV8SE8;
+				INFOPLIST_FILE = XyKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.XyKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XyKeyboard.app/XyKeyboard";
+			};
+			name = Debug;
+		};
+		358ACB771F2592C20037E5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S68EFV8SE8;
+				INFOPLIST_FILE = XyKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.XyKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XyKeyboard.app/XyKeyboard";
+			};
+			name = Release;
+		};
+		358ACB791F2592C20037E5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S68EFV8SE8;
+				INFOPLIST_FILE = XyKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.XyKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XyKeyboard;
+			};
+			name = Debug;
+		};
+		358ACB7A1F2592C20037E5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S68EFV8SE8;
+				INFOPLIST_FILE = XyKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.XyKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XyKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		358ACB401F2592C20037E5A8 /* Build configuration list for PBXProject "XyKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358ACB701F2592C20037E5A8 /* Debug */,
+				358ACB711F2592C20037E5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		358ACB721F2592C20037E5A8 /* Build configuration list for PBXNativeTarget "XyKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358ACB731F2592C20037E5A8 /* Debug */,
+				358ACB741F2592C20037E5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		358ACB751F2592C20037E5A8 /* Build configuration list for PBXNativeTarget "XyKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358ACB761F2592C20037E5A8 /* Debug */,
+				358ACB771F2592C20037E5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		358ACB781F2592C20037E5A8 /* Build configuration list for PBXNativeTarget "XyKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358ACB791F2592C20037E5A8 /* Debug */,
+				358ACB7A1F2592C20037E5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 358ACB3D1F2592C20037E5A8 /* Project object */;
+}
